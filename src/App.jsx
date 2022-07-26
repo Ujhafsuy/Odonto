@@ -7,6 +7,10 @@ import Micro from "./images/ezgif-3-97f2a37c0c.gif"
 import Initial from "./images/daniel-salcius-hGSzNiBwnRg-unsplash.jpg"
 import Doctors from "./images/omar-lopez-1qfy-jDc_jo-unsplash.jpg"
 
+import { Facebook } from "./components/facebook/index"
+import { Map } from "./components/map/index"
+import { Menssage } from "./components/mensage/index"
+
 function App() {
   return (
     <div className="App">
@@ -92,32 +96,27 @@ function App() {
               <div className='box1'></div>
               <p className='text color position padding'>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de<span className='span'> denguis</span>. Hoje eu só queria comer uma pizza de hot roll.</p>
             </div>
+            <img src={Doctors} alt="crianças" className='img0' />
+
           </section>
-          <img src={Doctors} alt="crianças" className='img0 border-img' />
 
         </main>
 
         <footer className='footer'>
           <div className='options'>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2.4 3.00083H21.6V17.4008H3.804L2.4 18.8048V3.00083ZM2.4 0.60083C1.08 0.60083 0.012 1.68083 0.012 3.00083L0 24.6008L4.8 19.8008H21.6C22.92 19.8008 24 18.7208 24 17.4008V3.00083C24 1.68083 22.92 0.60083 21.6 0.60083H2.4ZM4.8 12.6008H14.4V15.0008H4.8V12.6008ZM4.8 9.00083H19.2V11.4008H4.8V9.00083ZM4.8 5.40083H19.2V7.80083H4.8V5.40083Z" fill="#014149" />
-            </svg>
-
+            <Menssage />
             <a href="tel:+551140028922" className='link'>(55) 11 4002-8922.</a>
 
           </div>
           <div className='options'>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.7 16.488V16.988H7.2H9.1V24.0389C4.15742 22.747 0.5 18.2444 0.5 12.879C0.5 6.51331 5.65332 1.34888 12 1.34888C18.3467 1.34888 23.5 6.51331 23.5 12.879C23.5 18.6737 19.2406 23.4619 13.7 24.2834V16.988H16.8H17.3V16.488V12.879V12.379H16.8H13.7V10.4729C13.7 10.0862 14.0173 9.76993 14.4 9.76993H16.8H17.3V9.26993V5.66091V5.16091H16.8H13.8C11.2067 5.16091 9.1 7.27467 9.1 9.87143V12.379H7.2H6.7V12.879V16.488Z" fill="#014149" stroke="#014149" />
-            </svg>
+            <Facebook />
+
             <a href="https://Facebook.com" className='link'>Studio_Frasca</a>
 
 
           </div>
           <div className='options last'>
-            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M23.3333 0.097168L23.12 0.137168L16 2.89717L8 0.097168L0.48 2.6305C0.2 2.72383 0 2.96383 0 3.2705V23.4305C0 23.8038 0.293333 24.0972 0.666667 24.0972L0.88 24.0572L8 21.2972L16 24.0972L23.52 21.5638C23.8 21.4705 24 21.2305 24 20.9238V0.763835C24 0.390501 23.7067 0.097168 23.3333 0.097168ZM16 21.4305L8 18.6172V2.76383L16 5.57717V21.4305Z" fill="#014149" />
-            </svg>
+            <Map />
             <a href="https://goo.gl/maps/LkUpvZZbiZnPtVrW6" className='link'>Via Quintilio Varo, 46.</a>
 
           </div>

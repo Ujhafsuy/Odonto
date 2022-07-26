@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;500;600;700;800&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
@@ -8,14 +9,16 @@
 
 
 
-.containers {
+/*.containers {
   background: var(--dark-green-color);
-}
+}*/
 
 .intro {
   height: 46.375rem;
 
   background: black;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
+
   color: white;
 
   display: flex;
@@ -68,6 +71,7 @@
 
   background: var(--dark-green-color);
 
+
   padding-bottom: 3rem;
   border-bottom: 5px solid var(--green-color);
 }
@@ -78,6 +82,7 @@
   border-bottom: 0.5rem solid var(--green-color);
   border-radius: 0.56rem;
   background: var(--white-color);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .aling {
@@ -115,7 +120,7 @@
 }
 
 .organization {
-  margin: 1rem 3.875rem 1rem 2.5rem;
+  margin: 1rem 3.875rem 2rem 2.5rem;
 
 }
 
@@ -145,6 +150,7 @@
 
 .other_b {
   margin-bottom: 0.75rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sms {
@@ -156,28 +162,27 @@
 }
 
 .fourth {
-  background: var(--dark-green-color);
+  background: radial-gradient(69.03% 68.36% at 48.33% 50%, #017E76 0%, #014149 0%, rgba(1, 65, 73, 0.93) 0.01%, #014149 100%);
   width: 100%;
-
+  margin-bottom: -5px;
 }
 
 .organization_sc {
   padding: 1.5rem 0 0 0;
-  margin: 0 3.875rem 1rem 2.5rem;
-  background: var(--dark-green-color);
+  margin: 0 3.875rem 3.1rem 2.5rem;
 }
 
 .img0_top {
   margin-top: 1rem;
   width: 100%;
   height: auto;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
 }
 
 .img0 {
   width: 100%;
   height: auto;
-  padding: 0;
-  margin: 0;
+  border-bottom: 5px solid var(--green-color);
 }
 
 .color {
@@ -267,6 +272,7 @@ svg {
   height: 16.125rem;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .h3 {
