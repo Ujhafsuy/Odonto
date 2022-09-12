@@ -180,6 +180,12 @@ function App() {
                 <a href="https://goo.gl/maps/LkUpvZZbiZnPtVrW6" className='link'>Via Quintilio Varo, 46.</a>
 
               </div>
+              <div className='options last'>
+
+                <p className='link'>Segunda - Sexta  09:00 - 18:00</p>
+
+
+              </div>
 
               <iframe className='iframe' title="Map for reference" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.7804853013427!2d12.560927489698706!3d41.854551461975745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132589da1fa79689%3A0xf59010298a6ec69c!2sFrasca%20Dr.%20Stefano!5e0!3m2!1spt-BR!2sbr!4v1658683870597!5m2!1spt-BR!2sbr" />
 
@@ -207,6 +213,13 @@ function App() {
                   <div className='options last'>
                     <Map />
                     <a href="https://goo.gl/maps/LkUpvZZbiZnPtVrW6" className='link'>Via Quintilio Varo, 46.</a>
+                  </div>
+
+                  <div className='options last'>
+
+                    <p className='link'>Segunda - Sexta  09:00 - 18:00</p>
+
+
                   </div>
                 </div>
                 <div className="studio">
