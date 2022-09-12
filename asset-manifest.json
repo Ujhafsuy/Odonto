@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Odonto/static/css/main.7146f600.css",
-    "main.js": "/Odonto/static/js/main.e59d9fb8.js",
+    "main.js": "/Odonto/static/js/main.8d625546.js",
     "static/media/ezgif-3-97f2a37c0c.gif": "/Odonto/static/media/ezgif-3-97f2a37c0c.c4fb649526422aca25c5.gif",
     "static/media/daniel-salcius-hGSzNiBwnRg-unsplash.jpg": "/Odonto/static/media/daniel-salcius-hGSzNiBwnRg-unsplash.71e5bc82b46ae95a3a1d.jpg",
     "static/media/omar-lopez-1qfy-jDc_jo-unsplash.jpg": "/Odonto/static/media/omar-lopez-1qfy-jDc_jo-unsplash.e4773796b26f1c2ff5bb.jpg",
@@ -13,10 +13,10 @@
     "static/media/tratamentos.jpg": "/Odonto/static/media/tratamentos.5a436b56d84814c77eec.jpg",
     "index.html": "/Odonto/index.html",
     "main.7146f600.css.map": "/Odonto/static/css/main.7146f600.css.map",
-    "main.e59d9fb8.js.map": "/Odonto/static/js/main.e59d9fb8.js.map"
+    "main.8d625546.js.map": "/Odonto/static/js/main.8d625546.js.map"
   },
   "entrypoints": [
     "static/css/main.7146f600.css",
-    "static/js/main.e59d9fb8.js"
+    "static/js/main.8d625546.js"
   ]
 }
