@@ -140,7 +140,7 @@ function App() {
                 <div className='box'></div>
                 <p className='text color position' data-aos="fade-right"
                   data-aos-offset="300"
-                  data-aos-easing="ease-in-sine">Dentistas qualificados, materiais certificados e esterilização que segue as normas de biossegurança. .</p>
+                  data-aos-easing="ease-in-sine">Dentistas qualificados, materiais certificados e esterilização que segue as normas de biossegurança.</p>
               </div>
 
 
