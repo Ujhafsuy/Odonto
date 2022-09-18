@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Odonto/static/css/main.7146f600.css",
-    "main.js": "/Odonto/static/js/main.a0536d4b.js",
+    "main.css": "/Odonto/static/css/main.a80bc8ec.css",
+    "main.js": "/Odonto/static/js/main.8b41ac0c.js",
     "static/media/ezgif-3-97f2a37c0c.gif": "/Odonto/static/media/ezgif-3-97f2a37c0c.c4fb649526422aca25c5.gif",
     "static/media/daniel-salcius-hGSzNiBwnRg-unsplash.jpg": "/Odonto/static/media/daniel-salcius-hGSzNiBwnRg-unsplash.71e5bc82b46ae95a3a1d.jpg",
     "static/media/omar-lopez-1qfy-jDc_jo-unsplash.jpg": "/Odonto/static/media/omar-lopez-1qfy-jDc_jo-unsplash.e4773796b26f1c2ff5bb.jpg",
-    "static/media/sorriso.png": "/Odonto/static/media/sorriso.485b441b2385f0cd9b8d.png",
+    "static/media/sorriso_.png": "/Odonto/static/media/sorriso_.2af5ec2046d2ee0d4389.png",
+    "static/media/novi.jpeg": "/Odonto/static/media/novi.27ed6de0f27aa9feecaf.jpeg",
     "static/media/clinico-geral.jpg": "/Odonto/static/media/clinico-geral.5ce61de633f747c9c787.jpg",
     "static/media/ortodontis.jpg": "/Odonto/static/media/ortodontis.6fb16a97fc965e437ee7.jpg",
     "static/media/lato600.ttf": "/Odonto/static/media/lato600.135add07f318dbe4ab99.ttf",
     "static/media/estetica.jpg": "/Odonto/static/media/estetica.ea6f006df1b020c28c1c.jpg",
-    "static/media/tratamentos.jpg": "/Odonto/static/media/tratamentos.5a436b56d84814c77eec.jpg",
     "index.html": "/Odonto/index.html",
-    "main.7146f600.css.map": "/Odonto/static/css/main.7146f600.css.map",
-    "main.a0536d4b.js.map": "/Odonto/static/js/main.a0536d4b.js.map"
+    "main.a80bc8ec.css.map": "/Odonto/static/css/main.a80bc8ec.css.map",
+    "main.8b41ac0c.js.map": "/Odonto/static/js/main.8b41ac0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7146f600.css",
-    "static/js/main.a0536d4b.js"
+    "static/css/main.a80bc8ec.css",
+    "static/js/main.8b41ac0c.js"
   ]
 }
