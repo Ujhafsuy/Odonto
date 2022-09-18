@@ -2,20 +2,19 @@ import './styles/style.css'
 import Bruxismo from "./images/ortodontis.jpg"
 import Smile from "./images/estetica.jpg"
 import Clinico from "./images/clinico-geral.jpg"
-import Doctor from "./images/tratamentos.jpg"
 import Micro from "./images/ezgif-3-97f2a37c0c.gif"
 import Initial from "./images/daniel-salcius-hGSzNiBwnRg-unsplash.jpg"
 import Doctors from "./images/omar-lopez-1qfy-jDc_jo-unsplash.jpg"
-import Sorriso from "./images/sorriso.png"
+import Sorriso from "./images/sorriso_.png"
 import Logo from "./images/Logo_1.png"
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import { Facebook } from "./components/facebook/index"
-import { Map } from "./components/map/index"
-import { Menssage } from "./components/mensage/index"
-
+import { Map, SecondMap } from "./components/map/index"
+import { Menssage, Tel } from "./components/mensage/index"
+import { Novidade } from "./components/novidades/index.jsx"
 
 
 function App() {
@@ -49,7 +48,10 @@ function App() {
 
                 <div className='between'>
                   <p className='highlight_text'>A vida é melhor quando você <span className='span'>sorri!</span></p>
-                  <button className='mark0'>Agende sua consulta</button>
+
+                  <button className="mark01"><a href='#Footer1' className='btp'>Agende sua consulta</a></button>
+
+                  <button className='mark0' ><a href='#Footer' className='btp'>Agende sua consulta</a></button>
                 </div>
               </div>
             </div>
@@ -90,14 +92,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='itens' data-aos="fade-up">
-                <img src={Doctor} alt="sorriso" className='imgs_sequence' />
-
-                <div className='aling'>
-                  <h2 className='h2'>Outros tratamentos</h2>
-                  <p className='text'>Encontre aqui os nossos melhores tratamentos odontológicos para você sorrir sem dor e sem receio.</p>
-                </div>
-              </div>
+              <Novidade />
 
 
             </div>
@@ -110,7 +105,10 @@ function App() {
             </div>
             <img src={Micro} alt="dental microscope " className='micro' />
 
-            <button className='mark other_b'>Marque um horário</button>
+
+
+            <button className='mark other_b'><a href='#Footer' className="btp">Marque um horário</a></button>
+
             <button className='sms'>Ou mande um SMS.</button>
           </section>
 
@@ -126,7 +124,7 @@ function App() {
                 <h1 className='h1 color_reference this'>Aqui no Studio Frasca, o seu sorriso está nas melhores mãos!</h1>
                 <p className='text position_t p_this'>Dentistas qualificados, materiais certificados e esterilização que segue as normas de biossegurança. </p>
               </div>
-              <button className='mark other_b'>Marque um horário</button>
+              <button className='mark02 other_b'><a href='#Footer1' className="btp">Marque um horário</a></button>
               <button className='sms'>Ou mande um SMS.</button>
             </div>
           </section>
@@ -162,7 +160,7 @@ function App() {
 
         <footer className='footer'>
           <div className="footer_color">
-            <div className='footermob'>
+            <div className='footermob' id='Footer'>
               <div className='options'>
                 <Menssage />
                 <a href="tel:+551140028922" className='link'>(55) 11 4002-8922.</a>
@@ -193,41 +191,50 @@ function App() {
               <h3 className='h3 last_h3'>Freelancer</h3>
             </div>
 
-            <div className='footer900'>
+            <div className='footer900' id='Footer1'>
 
 
               <div className="org900">
                 <div className="links">
-                  <div className='options'>
-                    <Menssage />
-                    <a href="tel:+551140028922" className='link'>(55) 11 4002-8922.</a>
-
-                  </div>
-                  <div className='options'>
-                    <Facebook />
-
-                    <a href="https://Facebook.com" className='link'>Studio_Frasca</a>
-
-
-                  </div>
-                  <div className='options last'>
-                    <Map />
-                    <a href="https://goo.gl/maps/LkUpvZZbiZnPtVrW6" className='link'>Via Quintilio Varo, 46.</a>
-                  </div>
 
                   <div className='options last'>
+                    <h2 className='new'>
+                      Endereço:
+                    </h2>
+                    <div className="sep">
+                      <SecondMap />
+                      <a href="https://goo.gl/maps/LkUpvZZbiZnPtVrW6" className='link'>Via Quintilio Varo, 46.</a>
+                    </div>
+                  </div>
 
-                    <p className='link'>Segunda - Sexta  09:00 - 18:00</p>
-
+                  <div className='options'>
+                    <h2 className='new'>
+                      Contato:
+                    </h2>
+                    <div className="sep">
+                      <Tel />
+                      <a href="tel:+551140028922" className='link'>(55) 11 4002-8922.</a>
+                    </div>
+                  </div>
+                  <div className='options last'>
+                    <h2 className='new'>
+                      Horários:
+                    </h2>
+                    <div className="sep">
+                      <p className='link'>Segunda - Sexta  09:00 - 18:00</p>
+                    </div>
 
                   </div>
                 </div>
-                <div className="studio">
-                  <h3 className='h3'>Studio Frasca, 2022</h3>
-                  <h3 className='h3 last_h3'>Freelancer</h3>
-                </div>
+
+
+                <iframe className='iframe' title="Map for reference" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.7804853013427!2d12.560927489698706!3d41.854551461975745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132589da1fa79689%3A0xf59010298a6ec69c!2sFrasca%20Dr.%20Stefano!5e0!3m2!1spt-BR!2sbr!4v1658683870597!5m2!1spt-BR!2sbr" />
               </div>
-              <iframe className='iframe' title="Map for reference" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.7804853013427!2d12.560927489698706!3d41.854551461975745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132589da1fa79689%3A0xf59010298a6ec69c!2sFrasca%20Dr.%20Stefano!5e0!3m2!1spt-BR!2sbr!4v1658683870597!5m2!1spt-BR!2sbr" />
+
+              <div className="studio">
+                <h3 className='h3'>Studio Frasca, 2022</h3>
+                <h3 className='h3 last_h3'>Freelancer</h3>
+              </div>
 
             </div>
           </div>

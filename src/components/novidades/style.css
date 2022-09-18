@@ -1,0 +1,15 @@
+.img-tam {
+  width: 17.8rem;
+  height: 11.888rem;
+}
+
+.novidades {
+  position: absolute;
+  background: #02C3A9;
+  z-index: 2;
+  padding: 0.2rem;
+  border-radius: 0.5rem 0rem 0.5rem 0rem;
+  color: #014149;
+
+  font: 600 0.8rem "Lato", sans-serif;
+}
