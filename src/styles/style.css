@@ -58,7 +58,6 @@
 .img {
   height: 46rem;
   object-fit: cover;
-  width: 100%;
   position: absolute;
   z-index: 0;
   animation: opacity 600ms;
